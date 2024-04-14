@@ -2,7 +2,7 @@
 
 一个使用 Cloudflare Pages 创建的 URL 缩短器
 
-*Demo* : [https://d.131213.xyz/](https://d.131213.xyz/)
+*Demo* : [https://d.yuemanly.win/](https://d.yuemanly.win/)
 
 
 
@@ -51,10 +51,10 @@ CREATE TABLE IF NOT EXISTS logs (
 
 ```bash
 # POST /create
-curl -X POST -H "Content-Type: application/json" -d '{"url":"https://131213.xyz"}' https://d.131213.xyz/create
+curl -X POST -H "Content-Type: application/json" -d '{"url":"https://yuemanly.win"}' https://d.yuemanly.win/create
 
 # 指定slug
-curl -X POST -H "Content-Type: application/json" -d '{"url":"https://131213.xyz","slug":"scxs"}' https://d.131213.xyz/create
+curl -X POST -H "Content-Type: application/json" -d '{"url":"https://yuemanly.win","slug":"scxs"}' https://d.yuemanly.win/create
 
 ```
 
@@ -64,8 +64,8 @@ curl -X POST -H "Content-Type: application/json" -d '{"url":"https://131213.xyz"
 
 ```json
 {
-  "slug": "<slug>",
-  "link": "http://d.131213.xyz/<slug>"
+  "slug":"t1J4",
+  "link":"https://d.yuemanly.win/t1J4"
 }
 ```
 
